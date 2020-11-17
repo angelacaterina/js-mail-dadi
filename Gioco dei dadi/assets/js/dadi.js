@@ -32,7 +32,3 @@ btnGioca.addEventListener('click', function(){
   }
 
 });
-
-
-
-// 2. Stabilire il vincitore, in base a chi fa il punteggio più alto.
