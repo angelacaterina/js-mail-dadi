@@ -3,11 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: lightgrey;
+}
 /* UTILITY */
 .text_center{
   text-align: center;
 }
+
+.m_2{
+  margin: 2rem;
+}
+
 
 .d_flex{
   display: flex;
@@ -16,10 +24,24 @@
 .container{
   width: 50%;
   margin: auto;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 10px black;
+  background-color: white;
 }
 .row{
   justify-content: space-around;
 }
 .col{
   flex-direction: column;
+}
+
+p{
+  margin: 20px;
+}
+
+button{
+  padding: 5px 10px;
+  border: 1px solid grey;
+  border-radius: 6px;
 }
